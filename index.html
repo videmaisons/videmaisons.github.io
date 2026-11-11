@@ -22,7 +22,8 @@ body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;b
 .ligne1{display:flex;gap:8px;max-width:1300px;margin:0 auto}
 .ligne1 input{flex:1;min-width:0;font-size:16px;padding:9px 12px;border:1px solid #cfc6ba;border-radius:8px;background:#fff}
 .ligne1 select{font-size:15px;padding:8px;border:1px solid #cfc6ba;border-radius:8px;background:#fff}
-.puces{display:flex;gap:6px;overflow-x:auto;max-width:1300px;margin:8px auto 0;padding-bottom:2px;scrollbar-width:thin}
+.puces{display:flex;flex-wrap:wrap;gap:6px;max-width:1300px;margin:8px auto 0}
+@media (max-width:760px){.outils{position:static}.puce{font-size:13px;padding:4px 10px}}
 .puce{flex:none;border:1px solid #cfc6ba;background:#fff;color:var(--texte);border-radius:999px;padding:5px 12px;font-size:14px;cursor:pointer;white-space:nowrap}
 .puce[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#fff}
 .puce.ep{border-style:dashed}.puce.ep[aria-pressed=true]{border-style:solid}
@@ -80,7 +81,7 @@ footer a{color:var(--accent2)}
 <body>
 <header class="bandeau">
   <h1>Vide maisons</h1>
-  <p>sur <b>Gentilly, Créteil, Maisons-Alfort, Malakoff</b> — possibilité, si ce n'est pas trop lourd, de récupérer aussi sur <b>Paris</b>.</p>
+  <p>sur <b>Gentilly, Créteil, Maisons-Alfort, Malakoff</b><br>— possibilité, si ce n'est pas trop lourd, de récupérer aussi sur <b>Paris</b>.</p>
 </header>
 <div class="outils">
   <div class="onglets" role="tablist">
@@ -90,6 +91,7 @@ footer a{color:var(--accent2)}
   <div class="ligne1">
     <input id="q" type="search" placeholder="Rechercher : lampe, vaisselle, bois…" aria-label="Rechercher">
     <select id="tri" aria-label="Trier">
+      <option value="mob">Mobilier en premier</option>
       <option value="num">Les plus récents</option>
       <option value="asc">Prix croissant</option>
       <option value="desc">Prix décroissant</option>
@@ -127,7 +129,7 @@ footer a{color:var(--accent2)}
   </div>
 </dialog>
 
-<script src="donnees.js?v=1794414170"></script>
+<script src="donnees.js?v=1794414555"></script>
 <script>
 (function(){
 const D = window.VIDE_MAISON, O = D.objets;
@@ -164,7 +166,8 @@ function afficher(){
   visibles = O.filter(o => (onglet === "tout" || o.nouveau) && (!choixCat.size || choixCat.has(o.categorie)) && (!choixEp.size || choixEp.has(o.epoque))
     && (!cacher || o.statut !== "Vendu") && mots.every(m => o._txt.includes(m)));
   const rang = o => o.statut === "Vendu" ? 1 : 0;
-  visibles.sort((a, b) => rang(a) - rang(b) || (tri === "num" ? b.num.localeCompare(a.num)
+  visibles.sort((a, b) => rang(a) - rang(b) || (tri === "mob" ? (a.categorie !== "Mobilier") - (b.categorie !== "Mobilier") || b.num.localeCompare(a.num)
+    : tri === "num" ? b.num.localeCompare(a.num)
     : tri === "asc" ? (a.prix ?? 1e9) - (b.prix ?? 1e9) : (b.prix ?? -1) - (a.prix ?? -1)));
   $("grille").innerHTML = visibles.map((o, i) => `
     <button class="carte${o.statut === "Vendu" ? " vendu" : ""}" data-i="${i}" aria-label="${esc(o.objet)}, ${esc(prixTxt(o.prix, o))}">
