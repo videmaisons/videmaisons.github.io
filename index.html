@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vide maison – objets à récupérer</title>
+<title>Vide maisons – Gentilly, Créteil, Maisons-Alfort, Malakoff</title>
 <meta name="description" content="Vide maison : meubles, vaisselle, décoration, luminaires… à récupérer à Gentilly, Créteil, Maisons-Alfort, Malakoff ou Paris.">
 <style>
 :root{--fond:#f6f3ee;--carte:#fff;--texte:#2a2622;--doux:#6f665d;--accent:#b5562f;--accent2:#8f3f1f;--ligne:#e4ddd3;--vert:#2f7a4b}
@@ -13,6 +13,11 @@ body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;b
 .bandeau h1{margin:0;font-size:clamp(20px,4.5vw,30px);letter-spacing:.3px}
 .bandeau p{margin:4px auto 0;max-width:820px;font-size:clamp(14px,3.4vw,16px)}
 .outils{position:sticky;top:0;z-index:5;background:var(--fond);border-bottom:1px solid var(--ligne);padding:10px 16px}
+.onglets{display:flex;gap:6px;max-width:1300px;margin:0 auto 8px}
+.onglets button{flex:1;max-width:220px;font:inherit;font-weight:600;font-size:15px;padding:8px 12px;border:1px solid #cfc6ba;border-radius:8px;background:#fff;color:var(--texte);cursor:pointer}
+.onglets button[aria-selected=true]{background:var(--vert);border-color:var(--vert);color:#fff}
+.neuf{position:absolute;right:6px;top:6px;background:var(--vert);color:#fff;font-weight:700;font-size:12px;letter-spacing:.4px;text-transform:uppercase;border-radius:6px;padding:3px 8px}
+.statut.neuf2{background:var(--vert)}
 .ligne1{display:flex;gap:8px;max-width:1300px;margin:0 auto}
 .ligne1 input{flex:1;min-width:0;font-size:16px;padding:9px 12px;border:1px solid #cfc6ba;border-radius:8px;background:#fff}
 .ligne1 select{font-size:15px;padding:8px;border:1px solid #cfc6ba;border-radius:8px;background:#fff}
@@ -73,10 +78,14 @@ footer a{color:var(--accent2)}
 </head>
 <body>
 <header class="bandeau">
-  <h1>Vide maison</h1>
-  <p>À récupérer sur <b>Gentilly, Créteil, Maisons-Alfort, Malakoff</b> — ou possibilité, si ce n'est pas trop lourd, de s'arranger sur <b>Paris</b>.</p>
+  <h1>Vide maisons</h1>
+  <p>sur <b>Gentilly, Créteil, Maisons-Alfort, Malakoff</b> — possibilité, si ce n'est pas trop lourd, de récupérer aussi sur <b>Paris</b>.</p>
 </header>
 <div class="outils">
+  <div class="onglets" role="tablist">
+    <button role="tab" id="tab-tout" aria-selected="true">Tous les objets</button>
+    <button role="tab" id="tab-new" aria-selected="false">Nouveautés <span id="nb-new"></span></button>
+  </div>
   <div class="ligne1">
     <input id="q" type="search" placeholder="Rechercher : lampe, vaisselle, bois…" aria-label="Rechercher">
     <select id="tri" aria-label="Trier">
@@ -117,7 +126,7 @@ footer a{color:var(--accent2)}
   </div>
 </dialog>
 
-<script src="donnees.js?v=1794397542"></script>
+<script src="donnees.js?v=1794411325"></script>
 <script>
 (function(){
 const D = window.VIDE_MAISON, O = D.objets;
@@ -141,11 +150,16 @@ function puces(box, liste, choix, cls){
 puces($("cats"), D.categories, choixCat, "");
 puces($("eps"), D.epoques, choixEp, "ep");
 
-let visibles = [];
+let visibles = [], onglet = "tout";
+const nbNew = O.filter(o => o.nouveau).length;
+$("nb-new").textContent = "(" + nbNew + ")";
+function choisirOnglet(v){ onglet = v; $("tab-tout").setAttribute("aria-selected", v === "tout"); $("tab-new").setAttribute("aria-selected", v === "new"); afficher(); }
+$("tab-tout").onclick = () => choisirOnglet("tout");
+$("tab-new").onclick = () => choisirOnglet("new");
 function afficher(){
   const mots = sansAccent($("q").value).split(/\s+/).filter(Boolean);
   const cacher = $("cacher").checked, tri = $("tri").value;
-  visibles = O.filter(o => (!choixCat.size || choixCat.has(o.categorie)) && (!choixEp.size || choixEp.has(o.epoque))
+  visibles = O.filter(o => (onglet === "tout" || o.nouveau) && (!choixCat.size || choixCat.has(o.categorie)) && (!choixEp.size || choixEp.has(o.epoque))
     && (!cacher || o.statut !== "Vendu") && mots.every(m => o._txt.includes(m)));
   const rang = o => o.statut === "Vendu" ? 1 : 0;
   visibles.sort((a, b) => rang(a) - rang(b) || (tri === "num" ? b.num.localeCompare(a.num)
@@ -154,6 +168,7 @@ function afficher(){
     <button class="carte${o.statut === "Vendu" ? " vendu" : ""}" data-i="${i}" aria-label="${esc(o.objet)}, ${esc(prixTxt(o.prix))}">
       <div class="vignette">${o.photos[0] ? `<img src="miniatures/${encodeURIComponent(o.photos[0])}" alt="" loading="lazy" decoding="async" width="400" height="400">` : ""}
         ${o.statut !== "Disponible" ? `<span class="badge ${o.statut}">${o.statut}</span>` : ""}
+        ${o.nouveau ? `<span class="neuf">Nouveauté</span>` : ""}
         ${o.photos.length > 1 ? `<span class="nb">${o.photos.length} photos</span>` : ""}</div>
       <div class="corps"><span class="nom">${esc(o.objet)}</span>
         <div class="bas"><span class="prix">${esc(prixTxt(o.prix))}</span><span class="etat">${esc(o.etat)}</span></div></div>
@@ -193,7 +208,8 @@ function ouvrir(o){
   $("f-ref").textContent = o.num; $("f-nom").textContent = o.objet; $("f-prix").textContent = prixTxt(o.prix);
   $("f-desc").textContent = o.description;
   $("f-etq").innerHTML = [o.categorie, o.epoque, o.etat].filter(Boolean).map(v => `<span>${esc(v)}</span>`).join("");
-  const st = $("f-statut"); st.hidden = o.statut === "Disponible"; st.className = "statut " + o.statut; st.textContent = o.statut;
+  const st = $("f-statut"); st.hidden = o.statut === "Disponible" && !o.nouveau;
+  st.className = "statut " + (o.statut === "Disponible" ? "neuf2" : o.statut); st.textContent = o.statut === "Disponible" ? "Nouveauté" : o.statut;
   const b = $("f-btn");
   b.classList.toggle("off", o.statut === "Vendu");
   b.textContent = o.statut === "Vendu" ? "Déjà vendu" : o.statut === "Réservé" ? "Je suis intéressé(e) (liste d'attente)" : "Je suis intéressé(e)";
@@ -219,6 +235,7 @@ afficher();
 // lien direct vers un objet : index.html#OBJ-012
 const h = decodeURIComponent(location.hash.slice(1)), o = O.find(x => x.num === h);
 if (o) ouvrir(o);
+if (h === "nouveautes") choisirOnglet("new");
 })();
 </script>
 </body>
