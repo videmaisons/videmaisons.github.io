@@ -1,8 +1,9 @@
 {
- "mis_a_jour": "11/11/2026 à 17h43",
+ "mis_a_jour": "11/11/2026 à 18h06",
  "email": "gerezfamille@gmail.com",
  "categories": [
   "Mobilier",
+  "Art déco",
   "Décoration",
   "Tapis",
   "Cuivre",
@@ -284,30 +285,6 @@
    ]
   },
   {
-   "num": "OBJ-015",
-   "ajoute_le": "2026-11-10",
-   "nouveau": false,
-   "objet": "6 assiettes à dessert « Cris de Paris », porcelaine de Vierzon",
-   "categorie": "Vaisselle & cuisine",
-   "epoque": "1970–1990",
-   "etat": "Très bon état",
-   "description": "Six assiettes à dessert en porcelaine blanche de Vierzon, aile festonnée en relief (vigne), décor des petits métiers parisiens (porteur d'eau, chiffonnier, marchande de pommes…). Dans leur coffret hexagonal bordeaux d'origine. Environ 20 cm de diamètre.",
-   "prix": 35,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-015_1.jpg",
-    "OBJ-015_2.jpg",
-    "OBJ-015_3.jpg",
-    "OBJ-015_4.jpg",
-    "OBJ-015_5.jpg",
-    "OBJ-015_6.jpg",
-    "OBJ-015_7.jpg",
-    "OBJ-015_8.jpg",
-    "OBJ-015_9.jpg",
-    "OBJ-015_10.jpg"
-   ]
-  },
-  {
    "num": "OBJ-016",
    "ajoute_le": "2026-11-10",
    "nouveau": false,
@@ -467,10 +444,7 @@
    "statut": "Disponible",
    "photos": [
     "OBJ-023_1.jpg",
-    "OBJ-023_2.jpg",
-    "OBJ-023_3.jpg",
-    "OBJ-023_4.jpg",
-    "OBJ-023_5.jpg"
+    "OBJ-023_2.jpg"
    ]
   },
   {
@@ -569,7 +543,7 @@
    "categorie": "Enfant",
    "epoque": "1970–1990",
    "etat": "Très bon état",
-   "description": "Collection de 19 romans classiques reliés (Jules Verne, « Le Tour du monde en 80 jours »…), reliures cartonnées colorées à dos doré. Bon état intérieur, pages propres.",
+   "description": "Collection de 19 romans classiques jeunesse reliés, édition Arpège Junior : reliures cartonnées colorées à dos doré, couvertures illustrées. Titres : Le Tour du monde en 80 jours (Jules Verne) ; Les Malheurs de Sophie (Comtesse de Ségur) ; Alice au pays des merveilles (Lewis Carroll) ; La Petite Fadette et La Mare au diable (George Sand) ; Robinson Crusoé (Daniel Defoe) ; Les Aventures de Tom Sawyer (Mark Twain) ; Ben Hur (Lewis Wallace) ; La Prairie (Fenimore Cooper) ; Jane Eyre (Charlotte Brontë) ; Docteur Jekyll et Mister Hyde (Robert L. Stevenson) ; Contes du lundi et Tartarin de Tarascon (Alphonse Daudet) ; La Tulipe noire (Alexandre Dumas) ; Maria Chapdelaine (Louis Hémon) ; La Case de l'oncle Tom (Harriet Beecher-Stowe) ; L'Appel sauvage et Croc-Blanc (Jack London) ; Le Livre de mon ami (Anatole France). Bon état intérieur, pages propres.",
    "prix": 30,
    "statut": "Disponible",
    "photos": [
@@ -1139,28 +1113,6 @@
    ]
   },
   {
-   "num": "OBJ-059",
-   "ajoute_le": "2026-11-10",
-   "nouveau": false,
-   "objet": "Lave-linge top Vedette 5 kg",
-   "categorie": "Électroménager",
-   "epoque": "Après 1990",
-   "etat": "Très bon état",
-   "description": "Lave-linge à chargement par le dessus Vedette, capacité 1 à 5 kg, 12 programmes dont laine et délicat. Environ 40 cm de large, 60 cm de profondeur et 85 cm de haut.",
-   "prix": 65,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-059_1.jpg",
-    "OBJ-059_2.jpg",
-    "OBJ-059_3.jpg",
-    "OBJ-059_4.jpg",
-    "OBJ-059_5.jpg",
-    "OBJ-059_6.jpg",
-    "OBJ-059_7.jpg",
-    "OBJ-059_8.jpg"
-   ]
-  },
-  {
    "num": "OBJ-060",
    "ajoute_le": "2026-11-10",
    "nouveau": false,
@@ -1180,7 +1132,9 @@
     "OBJ-060_6.jpg",
     "OBJ-060_7.jpg",
     "OBJ-060_8.jpg",
-    "OBJ-060_9.jpg"
+    "OBJ-060_9.jpg",
+    "OBJ-060_10.jpg",
+    "OBJ-060_11.jpg"
    ]
   },
   {
@@ -1228,7 +1182,7 @@
    "ajoute_le": "2026-11-10",
    "nouveau": false,
    "objet": "Goéland en métal sur socle marbre",
-   "categorie": "Décoration",
+   "categorie": "Art déco",
    "epoque": "1970–1990",
    "etat": "Très bon état",
    "description": "Sculpture d'un goéland en vol au-dessus d'une vague, en métal patiné bronze, sur socle en marbre rouge veiné. Environ 25 cm de long, pèse plus d'1 kg.",
@@ -1382,7 +1336,7 @@
    "ajoute_le": "2026-11-10",
    "nouveau": false,
    "objet": "Lampe statue femme signée Moreau",
-   "categorie": "Luminaires",
+   "categorie": "Art déco",
    "epoque": "Avant 1970",
    "etat": "Très bon état",
    "description": "Pied de lampe en régule patiné argent représentant une jeune femme drapée, signée Aug. Moreau sur la terrasse, tige de lampe intégrée. Environ 37 cm (statue) ; poids d'environ 2,5 kg.",
@@ -1476,39 +1430,6 @@
     "OBJ-076_1.jpg",
     "OBJ-076_2.jpg",
     "OBJ-076_3.jpg"
-   ]
-  },
-  {
-   "num": "OBJ-077",
-   "ajoute_le": "2026-11-10",
-   "nouveau": false,
-   "objet": "Décapsuleur « 50 ans » doré",
-   "categorie": "Vaisselle & cuisine",
-   "epoque": "Après 1990",
-   "etat": "Neuf",
-   "description": "Décapsuleur décoratif en forme de chiffre « 50 » doré, dans son emballage cadeau holographique. Idée cadeau d'anniversaire.",
-   "prix": 5,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-077_1.jpg",
-    "OBJ-077_2.jpg",
-    "OBJ-077_3.jpg",
-    "OBJ-077_4.jpg"
-   ]
-  },
-  {
-   "num": "OBJ-078",
-   "ajoute_le": "2026-11-10",
-   "nouveau": false,
-   "objet": "Abat-jour orange",
-   "categorie": "Luminaires",
-   "epoque": "Après 1990",
-   "etat": "Très bon état",
-   "description": "Abat-jour conique en tissu orange, intérieur blanc. Environ 30 cm de haut.",
-   "prix": 4,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-078_1.jpg"
    ]
   },
   {
@@ -1701,57 +1622,6 @@
    ]
   },
   {
-   "num": "OBJ-091",
-   "ajoute_le": "2026-11-10",
-   "nouveau": false,
-   "objet": "Porte-clés mural en forme de clé (bois sculpté)",
-   "categorie": "Décoration",
-   "epoque": "1970–1990",
-   "etat": "Très bon état",
-   "description": "Grand porte-clés mural en bois sculpté teinté foncé en forme de clé ancienne, avec chaîne de suspension et crochets forgés. Environ 50 cm de long.",
-   "prix": 8,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-091_1.jpg",
-    "OBJ-091_2.jpg",
-    "OBJ-091_3.jpg",
-    "OBJ-091_4.jpg",
-    "OBJ-091_5.jpg",
-    "OBJ-091_6.jpg",
-    "OBJ-091_7.jpg",
-    "OBJ-091_8.jpg",
-    "OBJ-091_9.jpg",
-    "OBJ-091_10.jpg",
-    "OBJ-091_11.jpg",
-    "OBJ-091_12.jpg",
-    "OBJ-091_13.jpg",
-    "OBJ-091_14.jpg"
-   ]
-  },
-  {
-   "num": "OBJ-092",
-   "ajoute_le": "2026-11-10",
-   "nouveau": false,
-   "objet": "Guirlande lumineuse étoiles et Père Noël",
-   "categorie": "Décoration",
-   "epoque": "Après 1990",
-   "etat": "Très bon état",
-   "description": "Guirlande à micro-LED sur fil de cuivre avec petites étoiles et pères Noël, boîtier à piles. Environ 2 m.",
-   "prix": 5,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-092_1.jpg",
-    "OBJ-092_2.jpg",
-    "OBJ-092_3.jpg",
-    "OBJ-092_4.jpg",
-    "OBJ-092_5.jpg",
-    "OBJ-092_6.jpg",
-    "OBJ-092_7.jpg",
-    "OBJ-092_8.jpg",
-    "OBJ-092_9.jpg"
-   ]
-  },
-  {
    "num": "OBJ-093",
    "ajoute_le": "2026-11-10",
    "nouveau": false,
@@ -1777,7 +1647,7 @@
    "ajoute_le": "2026-11-10",
    "nouveau": false,
    "objet": "Grande cafetière et pot à lait en porcelaine métallisée",
-   "categorie": "Vaisselle & cuisine",
+   "categorie": "Art déco",
    "epoque": "Avant 1970",
    "etat": "Très bon état",
    "description": "Cafetière balustre et pot à lait en porcelaine à revêtement métallisé argenté, anses volutes, intérieur blanc. Cafetière d'environ 28 cm de haut ; petit fêle visible à l'intérieur.",
@@ -2587,8 +2457,7 @@
     "OBJ-135_1.jpg",
     "OBJ-135_2.jpg",
     "OBJ-135_3.jpg",
-    "OBJ-135_4.jpg",
-    "OBJ-135_5.jpg"
+    "OBJ-135_4.jpg"
    ]
   },
   {
@@ -2625,7 +2494,14 @@
    "prix": 220,
    "statut": "Disponible",
    "photos": [
-    "OBJ-137_1.jpg"
+    "OBJ-137_1.jpg",
+    "OBJ-137_2.jpg",
+    "OBJ-137_3.jpg",
+    "OBJ-137_4.jpg",
+    "OBJ-137_5.jpg",
+    "OBJ-137_6.jpg",
+    "OBJ-137_7.jpg",
+    "OBJ-137_8.jpg"
    ]
   },
   {
@@ -2659,7 +2535,13 @@
    "prix": 50,
    "statut": "Disponible",
    "photos": [
-    "OBJ-140_1.jpg"
+    "OBJ-140_1.jpg",
+    "OBJ-140_2.jpg",
+    "OBJ-140_3.jpg",
+    "OBJ-140_4.jpg",
+    "OBJ-140_5.jpg",
+    "OBJ-140_6.jpg",
+    "OBJ-140_7.jpg"
    ]
   },
   {
@@ -2674,22 +2556,11 @@
    "prix": 350,
    "statut": "Disponible",
    "photos": [
-    "OBJ-141_1.jpg"
-   ]
-  },
-  {
-   "num": "OBJ-142",
-   "ajoute_le": "2026-11-11",
-   "nouveau": false,
-   "objet": "2 grosses tasses jaune moutarde et bleu canard",
-   "categorie": "Vaisselle & cuisine",
-   "epoque": "Après 1990",
-   "etat": "Très bon état",
-   "description": "Deux grandes tasses en céramique, une jaune moutarde et une bleu canard, avec leur boîte.",
-   "prix": 4,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-142_1.jpg"
+    "OBJ-141_1.jpg",
+    "OBJ-141_2.jpg",
+    "OBJ-141_3.jpg",
+    "OBJ-141_4.jpg",
+    "OBJ-141_5.jpg"
    ]
   },
   {
@@ -2744,23 +2615,6 @@
     "OBJ-145_2.jpg",
     "OBJ-145_3.jpg",
     "OBJ-145_4.jpg"
-   ]
-  },
-  {
-   "num": "OBJ-146",
-   "ajoute_le": "2026-11-11",
-   "nouveau": false,
-   "objet": "Taille-crayon en forme de cloche",
-   "categorie": "Divers",
-   "epoque": "1970–1990",
-   "etat": "Très bon état",
-   "description": "Petit taille-crayon en laiton en forme de cloche.",
-   "prix": 4,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-146_1.jpg",
-    "OBJ-146_2.jpg",
-    "OBJ-146_3.jpg"
    ]
   },
   {
@@ -2927,22 +2781,6 @@
    ]
   },
   {
-   "num": "OBJ-156",
-   "ajoute_le": "2026-11-11",
-   "nouveau": false,
-   "objet": "Faitout en inox",
-   "categorie": "Vaisselle & cuisine",
-   "epoque": "Après 1990",
-   "etat": "Très bon état",
-   "description": "Grand faitout en inox à deux anses.",
-   "prix": 6,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-156_1.jpg",
-    "OBJ-156_2.jpg"
-   ]
-  },
-  {
    "num": "OBJ-157",
    "ajoute_le": "2026-11-11",
    "nouveau": false,
@@ -3046,7 +2884,7 @@
    "ajoute_le": "2026-11-11",
    "nouveau": false,
    "objet": "Ouvre-bouteille Napoléon Christofle",
-   "categorie": "Vaisselle & cuisine",
+   "categorie": "Art déco",
    "epoque": "1970–1990",
    "etat": "Très bon état",
    "description": "Décapsuleur en métal argenté, médaillon Napoléon Empereur.",
@@ -3064,7 +2902,7 @@
    "ajoute_le": "2026-11-11",
    "nouveau": false,
    "objet": "Ouvre-bouteille tête de cheval",
-   "categorie": "Vaisselle & cuisine",
+   "categorie": "Art déco",
    "epoque": "1970–1990",
    "etat": "Très bon état",
    "description": "Décapsuleur en métal argenté en forme de tête de cheval.",
@@ -3081,7 +2919,7 @@
    "ajoute_le": "2026-11-11",
    "nouveau": false,
    "objet": "Couple d'oiseaux art déco en métal",
-   "categorie": "Décoration",
+   "categorie": "Art déco",
    "epoque": "Avant 1970",
    "etat": "Très bon état",
    "description": "Sculpture art déco de deux perruches en régule doré.",
@@ -3098,7 +2936,7 @@
    "ajoute_le": "2026-11-11",
    "nouveau": false,
    "objet": "Lot de 2 oiseaux art déco dont un sur marbre",
-   "categorie": "Décoration",
+   "categorie": "Art déco",
    "epoque": "Avant 1970",
    "etat": "Très bon état",
    "description": "Deux oiseaux en régule, l'un sur socle en marbre noir.",
@@ -3118,7 +2956,7 @@
    "ajoute_le": "2026-11-11",
    "nouveau": false,
    "objet": "Gazelle bondissante art déco (à l'unité)",
-   "categorie": "Décoration",
+   "categorie": "Art déco",
    "epoque": "Avant 1970",
    "etat": "Très bon état",
    "description": "Sculpture art déco en régule d'une gazelle bondissante sur vagues.",
@@ -3137,7 +2975,7 @@
    "ajoute_le": "2026-11-11",
    "nouveau": false,
    "objet": "Tête de cheval art déco",
-   "categorie": "Décoration",
+   "categorie": "Art déco",
    "epoque": "Avant 1970",
    "etat": "Très bon état",
    "description": "Tête de cheval en régule doré.",
@@ -3484,7 +3322,7 @@
    "ajoute_le": "2026-11-11",
    "nouveau": false,
    "objet": "Pilulier ancien émaillé",
-   "categorie": "Divers",
+   "categorie": "Art déco",
    "epoque": "1970–1990",
    "etat": "Très bon état",
    "description": "Petite boîte pilulier en métal doré, couvercle émaillé décor oiseau et fleurs.",
@@ -3507,7 +3345,7 @@
    "ajoute_le": "2026-11-11",
    "nouveau": false,
    "objet": "Applique murale ancienne col de cygne",
-   "categorie": "Luminaires",
+   "categorie": "Art déco",
    "epoque": "Avant 1970",
    "etat": "Très bon état",
    "description": "Applique en laiton col de cygne avec tulipe en verre.",
@@ -3526,7 +3364,7 @@
    "ajoute_le": "2026-11-11",
    "nouveau": false,
    "objet": "Ancienne boîte à bijoux ornée d'angelots",
-   "categorie": "Bijoux",
+   "categorie": "Art déco",
    "epoque": "Avant 1970",
    "etat": "Très bon état",
    "description": "Coffret à bijoux en métal doré décor d'angelots, intérieur velours rouge.",
@@ -3549,7 +3387,7 @@
    "ajoute_le": "2026-11-11",
    "nouveau": false,
    "objet": "Statue ancienne Vierge Marie (Notre-Dame de Lourdes)",
-   "categorie": "Décoration",
+   "categorie": "Art déco",
    "epoque": "Avant 1970",
    "etat": "Très bon état",
    "description": "Statue en métal argenté de la Vierge, environ 20 cm.",
@@ -3642,7 +3480,7 @@
    "ajoute_le": "2026-11-11",
    "nouveau": false,
    "objet": "Cloche de table aux bateaux de Christophe Colomb",
-   "categorie": "Décoration",
+   "categorie": "Art déco",
    "epoque": "1970–1990",
    "etat": "Très bon état",
    "description": "Cloche de table en laiton décor des caravelles.",
@@ -3661,7 +3499,7 @@
    "ajoute_le": "2026-11-11",
    "nouveau": false,
    "objet": "Bougeoir chandelier ancien en étain",
-   "categorie": "Décoration",
+   "categorie": "Art déco",
    "epoque": "Avant 1970",
    "etat": "Usé",
    "description": "Grand bougeoir ancien à pieds.",
@@ -3684,7 +3522,7 @@
    "ajoute_le": "2026-11-11",
    "nouveau": false,
    "objet": "Ancien service à thé et pot à lait métal argenté",
-   "categorie": "Vaisselle & cuisine",
+   "categorie": "Art déco",
    "epoque": "Avant 1970",
    "etat": "Très bon état",
    "description": "Théière, pot à lait et sucrier en porcelaine à finition métal argenté.",
@@ -3763,7 +3601,7 @@
    "ajoute_le": "2026-11-11",
    "nouveau": false,
    "objet": "Couteau à beurre couronnement Elisabeth II",
-   "categorie": "Vaisselle & cuisine",
+   "categorie": "Art déco",
    "epoque": "Avant 1970",
    "etat": "Très bon état",
    "description": "Couteau à beurre souvenir du couronnement, dans son étui.",
@@ -3810,7 +3648,7 @@
    "ajoute_le": "2026-11-11",
    "nouveau": false,
    "objet": "Cuillère ancienne Venise",
-   "categorie": "Vaisselle & cuisine",
+   "categorie": "Art déco",
    "epoque": "Avant 1970",
    "etat": "Très bon état",
    "description": "Cuillère souvenir de Venise ornée d'une gondole.",
@@ -4726,7 +4564,7 @@
    "ajoute_le": "2026-11-11",
    "nouveau": false,
    "objet": "Couronne de mariée ancienne",
-   "categorie": "Vêtements & textiles",
+   "categorie": "Art déco",
    "epoque": "Avant 1970",
    "etat": "Usé",
    "description": "Couronne de mariée en fleurs de cire et perles.",
@@ -4754,8 +4592,7 @@
     "OBJ-254_1.jpg",
     "OBJ-254_2.jpg",
     "OBJ-254_3.jpg",
-    "OBJ-254_4.jpg",
-    "OBJ-254_5.jpg"
+    "OBJ-254_4.jpg"
    ]
   },
   {
@@ -4877,36 +4714,6 @@
     "OBJ-261_3.jpg",
     "OBJ-261_4.jpg",
     "OBJ-261_5.jpg"
-   ]
-  },
-  {
-   "num": "OBJ-262",
-   "ajoute_le": "2026-11-11",
-   "nouveau": false,
-   "objet": "Lot de portefeuilles en cuir",
-   "categorie": "Sacs & accessoires",
-   "epoque": "1970–1990",
-   "etat": "Très bon état",
-   "description": "Plusieurs portefeuilles en cuir.",
-   "prix": 8,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-262_1.jpg"
-   ]
-  },
-  {
-   "num": "OBJ-263",
-   "ajoute_le": "2026-11-11",
-   "nouveau": false,
-   "objet": "Lot de montures de lunettes",
-   "categorie": "Sacs & accessoires",
-   "epoque": "1970–1990",
-   "etat": "Usé",
-   "description": "Une dizaine de montures de lunettes vintage.",
-   "prix": 5,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-263_1.jpg"
    ]
   },
   {
@@ -5646,24 +5453,6 @@
    ]
   },
   {
-   "num": "OBJ-306",
-   "ajoute_le": "2026-11-11",
-   "nouveau": false,
-   "objet": "Lot de 4 petits tapis de bain",
-   "categorie": "Salle de bain",
-   "epoque": "Après 1990",
-   "etat": "Très bon état",
-   "description": "Quatre petits tapis de bain (bleu, bleu et blanc, beige, rayé).",
-   "prix": 6,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-306_1.jpg",
-    "OBJ-306_2.jpg",
-    "OBJ-306_3.jpg",
-    "OBJ-306_4.jpg"
-   ]
-  },
-  {
    "num": "OBJ-307",
    "ajoute_le": "2026-11-11",
    "nouveau": false,
@@ -5904,7 +5693,7 @@
    "ajoute_le": "2026-11-11",
    "nouveau": false,
    "objet": "Lot de 2 gazelles bondissantes art déco",
-   "categorie": "Décoration",
+   "categorie": "Art déco",
    "epoque": "Avant 1970",
    "etat": "Très bon état",
    "description": "Paire de gazelles bondissantes art déco en régule sur socle à vagues.",
@@ -5915,6 +5704,86 @@
     "OBJ-321_2.jpg",
     "OBJ-321_3.jpg"
    ]
+  },
+  {
+   "num": "OBJ-322",
+   "ajoute_le": "2026-11-11",
+   "nouveau": false,
+   "objet": "Vase cannelé orange et bouquet de fleurs artificielles",
+   "categorie": "Décoration",
+   "epoque": "1970–1990",
+   "etat": "Très bon état",
+   "description": "Grand vase en céramique cannelée orange avec un bouquet de fleurs artificielles (pivoines, roses).",
+   "prix": 10,
+   "statut": "Disponible",
+   "photos": [
+    "OBJ-322_1.jpg",
+    "OBJ-322_2.jpg",
+    "OBJ-322_3.jpg"
+   ]
+  },
+  {
+   "num": "OBJ-323",
+   "ajoute_le": "2026-11-11",
+   "nouveau": false,
+   "objet": "Gazon synthétique 25 mm",
+   "categorie": "Outillage & jardin",
+   "epoque": "Après 1990",
+   "etat": "Très bon état",
+   "description": "Rouleau de gazon synthétique, épaisseur 25 mm.",
+   "prix": 40,
+   "statut": "Disponible",
+   "photos": [
+    "OBJ-323_1.jpg",
+    "OBJ-323_2.jpg",
+    "OBJ-323_3.jpg",
+    "OBJ-323_4.jpg"
+   ]
   }
+ ],
+ "vue_globale": [
+  "Vue globale__20261020_215833.jpg",
+  "Vue globale__20261023_133800.jpg",
+  "Vue globale__20261023_133814.jpg",
+  "Vue globale__20261023_133819.jpg",
+  "Vue globale__20261023_133823.jpg",
+  "Vue globale__20261023_133950.jpg",
+  "Vue globale__20261023_133954.jpg",
+  "Vue globale__20261023_133958.jpg",
+  "Vue globale__20261023_134041.jpg",
+  "Vue globale__20261023_134044.jpg",
+  "Vue globale__20261023_134102.jpg",
+  "Vue globale__20261023_134112.jpg",
+  "Vue globale__20261023_134122.jpg",
+  "Vue globale__20261023_134129.jpg",
+  "Vue globale__20261023_134139.jpg",
+  "Vue globale__20261023_134145.jpg",
+  "Vue globale__20261023_134202.jpg",
+  "Vue globale__20261023_134210.jpg",
+  "Vue globale__20261023_134214.jpg",
+  "Vue globale__20261023_134223.jpg",
+  "Vue globale__20261023_134226.jpg",
+  "Vue globale__20261023_134339.jpg",
+  "Vue globale__20261023_134343.jpg",
+  "Vue globale__20261023_134350.jpg",
+  "Vue globale__20261023_134359.jpg",
+  "Vue globale__20261023_134402.jpg",
+  "Vue globale__20261023_134424.jpg",
+  "Vue globale__20261023_134427.jpg",
+  "Vue globale__20261023_134433.jpg",
+  "Vue globale__20261023_134440.jpg",
+  "Vue globale__20261023_134450.jpg",
+  "Vue globale__20261104_164657.jpg",
+  "Vue globale__20261104_165235.jpg",
+  "Vue globale__20261104_165241.jpg",
+  "Vue globale__20261104_165244.jpg",
+  "Vue globale__20261104_165647.jpg",
+  "Vue globale__20261104_170012.jpg",
+  "Vue globale__20261104_170049.jpg",
+  "Vue globale__20261104_170313.jpg",
+  "Vue globale__20261104_170318.jpg",
+  "Vue globale__IMG-20261017-WA0038.jpg",
+  "Vue globale__IMG-20261017-WA0039.jpg",
+  "Vue globale__IMG-20261017-WA0040.jpg"
  ]
 }
