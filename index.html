@@ -86,7 +86,6 @@ footer a{color:var(--accent2)}
 <div class="outils">
   <div class="onglets" role="tablist">
     <button role="tab" id="tab-tout" aria-selected="true">Tous les objets</button>
-    <button role="tab" id="tab-new" aria-selected="false">Nouveautés <span id="nb-new"></span></button>
     <button role="tab" id="tab-vue" aria-selected="false">Vue globale</button>
   </div>
   <div class="ligne1 filtres">
@@ -100,7 +99,7 @@ footer a{color:var(--accent2)}
   </div>
   <div class="puces filtres" id="cats" aria-label="Catégories"></div>
   <div class="puces filtres" id="eps" aria-label="Époques"></div>
-  <div class="info"><span id="compte"></span><label class="filtres"><input type="checkbox" id="cacher"> masquer les objets vendus</label><button id="raz" hidden>Effacer les filtres</button></div>
+  <div class="info"><span id="compte"></span><label class="filtres"><input type="checkbox" id="cacher"> afficher les nouveautés <span id="nb-new2"></span></label><button id="raz" hidden>Effacer les filtres</button></div>
 </div>
 <main><div class="grille" id="grille"></div><p class="vide" id="vide" hidden>Aucun objet ne correspond à votre recherche.</p></main>
 <footer>Mis à jour le <span id="maj"></span> · Une question ? <a id="contact">écrivez-nous</a></footer>
@@ -130,7 +129,7 @@ footer a{color:var(--accent2)}
   </div>
 </dialog>
 
-<script src="donnees.js?v=1794416787"></script>
+<script src="donnees.js?v=1794417339"></script>
 <script>
 (function(){
 const D = window.VIDE_MAISON, O = D.objets;
@@ -156,12 +155,11 @@ puces($("eps"), D.epoques, choixEp, "ep");
 
 let visibles = [], onglet = "tout";
 const nbNew = O.filter(o => o.nouveau).length;
-$("nb-new").textContent = "(" + nbNew + ")";
-$("tab-new").hidden = nbNew === 0;
+$("nb-new2").textContent = "(" + nbNew + ")";
 $("tab-vue").hidden = !(D.vue_globale || []).length;
-document.querySelector(".onglets").hidden = nbNew === 0 && $("tab-vue").hidden;
+document.querySelector(".onglets").hidden = $("tab-vue").hidden;
 function choisirOnglet(v){ onglet = v;
-  ["tout", "new", "vue"].forEach(t => $("tab-" + t).setAttribute("aria-selected", v === t));
+  ["tout", "vue"].forEach(t => $("tab-" + t).setAttribute("aria-selected", v === t));
   document.querySelectorAll(".filtres").forEach(e => e.hidden = v === "vue");
   if (v === "vue") { afficherVue(); return; }
   afficher(); }
@@ -174,12 +172,12 @@ function afficherVue(){
 }
 $("tab-vue").onclick = () => choisirOnglet("vue");
 $("tab-tout").onclick = () => choisirOnglet("tout");
-$("tab-new").onclick = () => choisirOnglet("new");
+
 function afficher(){
   const mots = sansAccent($("q").value).split(/\s+/).filter(Boolean);
   const cacher = $("cacher").checked, tri = $("tri").value;
-  visibles = O.filter(o => (onglet === "tout" || o.nouveau) && (!choixCat.size || choixCat.has(o.categorie)) && (!choixEp.size || choixEp.has(o.epoque))
-    && (!cacher || o.statut !== "Vendu") && mots.every(m => o._txt.includes(m)));
+  visibles = O.filter(o => (!choixCat.size || choixCat.has(o.categorie)) && (!choixEp.size || choixEp.has(o.epoque))
+    && (!cacher || o.nouveau) && mots.every(m => o._txt.includes(m)));
   const rang = o => o.statut === "Vendu" ? 1 : 0;
   visibles.sort((a, b) => rang(a) - rang(b) || (tri === "mob" ? (a.categorie !== "Mobilier") - (b.categorie !== "Mobilier") || b.num.localeCompare(a.num)
     : tri === "num" ? b.num.localeCompare(a.num)
@@ -194,6 +192,7 @@ function afficher(){
         <div class="bas"><span class="prix">${esc(prixTxt(o.prix, o))}</span><span class="etat">${esc(o.etat)}</span></div></div>
     </button>`).join("");
   $("vide").hidden = visibles.length > 0;
+  $("vide").textContent = cacher && !nbNew ? "Pas de nouveauté pour le moment : revenez bientôt !" : "Aucun objet ne correspond à votre recherche.";
   const nonVendus = visibles.filter(o => o.statut !== "Vendu").length;
   $("compte").textContent = `${visibles.length} objet${visibles.length > 1 ? "s" : ""} affiché${visibles.length > 1 ? "s" : ""}` + (nonVendus < visibles.length ? ` (dont ${nonVendus} encore disponible${nonVendus > 1 ? "s" : ""} ou réservé${nonVendus > 1 ? "s" : ""})` : "");
   $("raz").hidden = !(mots.length || choixCat.size || choixEp.size || cacher);
@@ -269,7 +268,7 @@ afficher();
 // lien direct vers un objet : index.html#OBJ-012
 const h = decodeURIComponent(location.hash.slice(1)), o = O.find(x => x.num === h);
 if (o) ouvrir(o);
-if (h === "nouveautes") choisirOnglet("new");
+if (h === "nouveautes") { $("cacher").checked = true; afficher(); }
 if (h === "vue-globale") choisirOnglet("vue");
 })();
 </script>

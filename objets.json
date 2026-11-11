@@ -1,5 +1,5 @@
 {
- "mis_a_jour": "11/11/2026 à 18h06",
+ "mis_a_jour": "11/11/2026 à 18h15",
  "email": "gerezfamille@gmail.com",
  "categories": [
   "Mobilier",
@@ -5738,6 +5738,27 @@
     "OBJ-323_2.jpg",
     "OBJ-323_3.jpg",
     "OBJ-323_4.jpg"
+   ]
+  },
+  {
+   "num": "OBJ-324",
+   "ajoute_le": "2026-11-10",
+   "nouveau": false,
+   "objet": "Lot de 2 tables de chevet identiques",
+   "categorie": "Mobilier",
+   "epoque": "1970–1990",
+   "etat": "Très bon état",
+   "description": "Deux tables de chevet identiques. Table de chevet en bois exotique vernis années 60-70, deux tiroirs et socle en retrait. Environ 50 × 40 × 45 cm (lampe non comprise).",
+   "prix": 80,
+   "statut": "Disponible",
+   "photos": [
+    "OBJ-140_1.jpg",
+    "OBJ-140_2.jpg",
+    "OBJ-140_3.jpg",
+    "OBJ-140_4.jpg",
+    "OBJ-140_5.jpg",
+    "OBJ-140_6.jpg",
+    "OBJ-140_7.jpg"
    ]
   }
  ],
