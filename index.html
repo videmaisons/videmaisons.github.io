@@ -13,6 +13,7 @@ body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;b
 .bandeau h1{margin:0;font-size:clamp(20px,4.5vw,30px);letter-spacing:.3px}
 .bandeau p{margin:4px auto 0;max-width:820px;font-size:clamp(14px,3.4vw,16px)}
 .outils{position:sticky;top:0;z-index:5;background:var(--fond);border-bottom:1px solid var(--ligne);padding:10px 16px}
+.onglets[hidden]{display:none}
 .onglets{display:flex;gap:6px;max-width:1300px;margin:0 auto 8px}
 .onglets button{flex:1;max-width:220px;font:inherit;font-weight:600;font-size:15px;padding:8px 12px;border:1px solid #cfc6ba;border-radius:8px;background:#fff;color:var(--texte);cursor:pointer}
 .onglets button[aria-selected=true]{background:var(--vert);border-color:var(--vert);color:#fff}
@@ -126,14 +127,14 @@ footer a{color:var(--accent2)}
   </div>
 </dialog>
 
-<script src="donnees.js?v=1794411325"></script>
+<script src="donnees.js?v=1794413331"></script>
 <script>
 (function(){
 const D = window.VIDE_MAISON, O = D.objets;
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const sansAccent = s => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
-const prixTxt = p => p == null ? "Prix à discuter" : p === 0 ? "Gratuit" : p.toLocaleString("fr-FR") + " €";
+const prixTxt = (p, o) => o && o.prix_texte ? o.prix_texte : p == null ? "Prix à discuter" : p === 0 ? "Gratuit" : p.toLocaleString("fr-FR") + " €";
 O.forEach(o => o._txt = sansAccent([o.num, o.objet, o.description, o.categorie, o.epoque, o.etat].join(" ")));
 $("maj").textContent = D.mis_a_jour;
 $("contact").href = "mailto:" + D.email + "?subject=" + encodeURIComponent("Vide maison");
@@ -153,6 +154,7 @@ puces($("eps"), D.epoques, choixEp, "ep");
 let visibles = [], onglet = "tout";
 const nbNew = O.filter(o => o.nouveau).length;
 $("nb-new").textContent = "(" + nbNew + ")";
+document.querySelector(".onglets").hidden = nbNew === 0;
 function choisirOnglet(v){ onglet = v; $("tab-tout").setAttribute("aria-selected", v === "tout"); $("tab-new").setAttribute("aria-selected", v === "new"); afficher(); }
 $("tab-tout").onclick = () => choisirOnglet("tout");
 $("tab-new").onclick = () => choisirOnglet("new");
@@ -165,13 +167,13 @@ function afficher(){
   visibles.sort((a, b) => rang(a) - rang(b) || (tri === "num" ? b.num.localeCompare(a.num)
     : tri === "asc" ? (a.prix ?? 1e9) - (b.prix ?? 1e9) : (b.prix ?? -1) - (a.prix ?? -1)));
   $("grille").innerHTML = visibles.map((o, i) => `
-    <button class="carte${o.statut === "Vendu" ? " vendu" : ""}" data-i="${i}" aria-label="${esc(o.objet)}, ${esc(prixTxt(o.prix))}">
+    <button class="carte${o.statut === "Vendu" ? " vendu" : ""}" data-i="${i}" aria-label="${esc(o.objet)}, ${esc(prixTxt(o.prix, o))}">
       <div class="vignette">${o.photos[0] ? `<img src="miniatures/${encodeURIComponent(o.photos[0])}" alt="" loading="lazy" decoding="async" width="400" height="400">` : ""}
         ${o.statut !== "Disponible" ? `<span class="badge ${o.statut}">${o.statut}</span>` : ""}
         ${o.nouveau ? `<span class="neuf">Nouveauté</span>` : ""}
         ${o.photos.length > 1 ? `<span class="nb">${o.photos.length} photos</span>` : ""}</div>
       <div class="corps"><span class="nom">${esc(o.objet)}</span>
-        <div class="bas"><span class="prix">${esc(prixTxt(o.prix))}</span><span class="etat">${esc(o.etat)}</span></div></div>
+        <div class="bas"><span class="prix">${esc(prixTxt(o.prix, o))}</span><span class="etat">${esc(o.etat)}</span></div></div>
     </button>`).join("");
   $("vide").hidden = visibles.length > 0;
   const nonVendus = visibles.filter(o => o.statut !== "Vendu").length;
@@ -198,14 +200,14 @@ function photo(n){
 }
 function mail(o){
   const sujet = `Vide maison – ${o.num} – ${o.objet}`;
-  const corps = `Bonjour,\n\nJe suis intéressé(e) par l'objet suivant :\n- ${o.num} : ${o.objet} (${prixTxt(o.prix)})\n\n`
+  const corps = `Bonjour,\n\nJe suis intéressé(e) par l'objet suivant :\n- ${o.num} : ${o.objet} (${prixTxt(o.prix, o)})\n\n`
     + `Mes disponibilités pour venir le récupérer (Gentilly, Créteil, Maisons-Alfort, Malakoff, ou Paris si ce n'est pas trop lourd) :\n- \n\n`
     + `Mon numéro de téléphone (facultatif) : \n\nMerci et à bientôt,\n`;
   return "mailto:" + D.email + "?subject=" + encodeURIComponent(sujet) + "&body=" + encodeURIComponent(corps);
 }
 function ouvrir(o){
   cur = o;
-  $("f-ref").textContent = o.num; $("f-nom").textContent = o.objet; $("f-prix").textContent = prixTxt(o.prix);
+  $("f-ref").textContent = o.num; $("f-nom").textContent = o.objet; $("f-prix").textContent = prixTxt(o.prix, o);
   $("f-desc").textContent = o.description;
   $("f-etq").innerHTML = [o.categorie, o.epoque, o.etat].filter(Boolean).map(v => `<span>${esc(v)}</span>`).join("");
   const st = $("f-statut"); st.hidden = o.statut === "Disponible" && !o.nouveau;
