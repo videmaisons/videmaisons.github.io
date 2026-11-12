@@ -140,7 +140,7 @@ footer a{color:var(--accent2)}
   </div>
 </dialog>
 
-<script src="donnees.js?v=1794502227"></script>
+<script src="donnees.js?v=1794502654"></script>
 <script>
 (function(){
 const D = window.VIDE_MAISON, O = D.objets;
@@ -180,7 +180,8 @@ function afficherVue(){
     <div class="vignette"><img src="miniatures/${encodeURIComponent(f)}" alt="" loading="lazy" decoding="async" width="400" height="400"></div></button>`).join("")
     + (D.prochaine ? `<a class="rdv" href="${esc(mailRdv())}"><span class="rdv-t">Prochaine date</span>
       <strong>${esc(D.prochaine.date)}</strong><span class="rdv-l">${esc(D.prochaine.lieu)}</span>
-      <span class="rdv-b">Je suis intéressé(e)</span><small>Ouvre un e-mail : indiquez vos disponibilités horaires.</small></a>` : "");
+
+      <span class="rdv-b">Je suis intéressé(e)</span></a>` : "");
   $("vide").hidden = true;
   $("compte").textContent = V.length + " photos de l'ensemble de la maison";
 }
