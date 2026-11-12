@@ -1,5 +1,5 @@
 {
- "mis_a_jour": "12/11/2026 à 08h45",
+ "mis_a_jour": "12/11/2026 à 12h04",
  "email": "gerezfamille@gmail.com",
  "categories": [
   "Mobilier",
@@ -679,32 +679,6 @@
    ]
   },
   {
-   "num": "OBJ-037",
-   "ajoute_le": "2026-11-10",
-   "nouveau": false,
-   "objet": "Lot de 3 poupées régionales en costume",
-   "categorie": "Enfants & jouets",
-   "epoque": "1970–1990",
-   "etat": "Très bon état",
-   "description": "Trois poupées folkloriques en costume régional (Normandie, Arles, Alsace ?) avec coiffes en dentelle, chacune dans son tube transparent d'origine avec anse. Environ 30 cm.",
-   "prix": 8,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-037_1.jpg",
-    "OBJ-037_2.jpg",
-    "OBJ-037_3.jpg",
-    "OBJ-037_4.jpg",
-    "OBJ-037_5.jpg",
-    "OBJ-037_6.jpg",
-    "OBJ-037_7.jpg",
-    "OBJ-037_8.jpg",
-    "OBJ-037_9.jpg",
-    "OBJ-037_10.jpg",
-    "OBJ-037_11.jpg",
-    "OBJ-037_12.jpg"
-   ]
-  },
-  {
    "num": "OBJ-038",
    "ajoute_le": "2026-11-10",
    "nouveau": false,
@@ -1165,7 +1139,7 @@
    "nouveau": false,
    "objet": "Goéland en métal sur socle marbre",
    "categorie": "Art déco",
-   "epoque": "1970–1990",
+   "epoque": "Avant 1970",
    "etat": "Très bon état",
    "description": "Sculpture d'un goéland en vol au-dessus d'une vague, en métal patiné bronze, sur socle en marbre rouge veiné. Environ 25 cm de long, pèse plus d'1 kg.",
    "prix": 40,
@@ -3213,7 +3187,19 @@
     "OBJ-181_1.jpg",
     "OBJ-181_2.jpg",
     "OBJ-181_3.jpg",
-    "OBJ-181_4.jpg"
+    "OBJ-181_4.jpg",
+    "OBJ-181_5.jpg",
+    "OBJ-181_6.jpg",
+    "OBJ-181_7.jpg",
+    "OBJ-181_8.jpg",
+    "OBJ-181_9.jpg",
+    "OBJ-181_10.jpg",
+    "OBJ-181_11.jpg",
+    "OBJ-181_12.jpg",
+    "OBJ-181_13.jpg",
+    "OBJ-181_14.jpg",
+    "OBJ-181_15.jpg",
+    "OBJ-181_16.jpg"
    ]
   },
   {
@@ -3316,11 +3302,11 @@
    "num": "OBJ-187",
    "ajoute_le": "2026-11-10",
    "nouveau": false,
-   "objet": "Pilulier ancien émaillé",
+   "objet": "Pilulier ancien damasquiné fleur et oiseau",
    "categorie": "Art déco",
    "epoque": "1970–1990",
    "etat": "Très bon état",
-   "description": "Petite boîte pilulier en métal doré, couvercle émaillé décor oiseau et fleurs.",
+   "description": "Pilulier en métal doré damasquiné (Tolède), décor fleur et oiseau.",
    "prix": 30,
    "statut": "Disponible",
    "photos": [
@@ -3332,7 +3318,16 @@
     "OBJ-187_6.jpg",
     "OBJ-187_7.jpg",
     "OBJ-187_8.jpg",
-    "OBJ-187_9.jpg"
+    "OBJ-187_9.jpg",
+    "OBJ-187_10.jpg",
+    "OBJ-187_11.jpg",
+    "OBJ-187_12.jpg",
+    "OBJ-187_13.jpg",
+    "OBJ-187_14.jpg",
+    "OBJ-187_15.jpg",
+    "OBJ-187_16.jpg",
+    "OBJ-187_17.jpg",
+    "OBJ-187_18.jpg"
    ]
   },
   {
@@ -3485,7 +3480,7 @@
    "num": "OBJ-195",
    "ajoute_le": "2026-11-10",
    "nouveau": false,
-   "objet": "Cloche de table aux bateaux de Christophe Colomb",
+   "objet": "Cloche de table en laiton, bateaux de Christophe Colomb",
    "categorie": "Art déco",
    "epoque": "1970–1990",
    "etat": "Très bon état",
@@ -3497,7 +3492,16 @@
     "OBJ-195_2.jpg",
     "OBJ-195_3.jpg",
     "OBJ-195_4.jpg",
-    "OBJ-195_5.jpg"
+    "OBJ-195_5.jpg",
+    "OBJ-195_6.jpg",
+    "OBJ-195_7.jpg",
+    "OBJ-195_8.jpg",
+    "OBJ-195_9.jpg",
+    "OBJ-195_10.jpg",
+    "OBJ-195_11.jpg",
+    "OBJ-195_12.jpg",
+    "OBJ-195_13.jpg",
+    "OBJ-195_14.jpg"
    ]
   },
   {
@@ -6314,7 +6318,7 @@
    "ajoute_le": "2026-11-10",
    "nouveau": false,
    "objet": "Boîte à bijoux en forme de cœur",
-   "categorie": "Sacs & accessoires",
+   "categorie": "Bijoux",
    "epoque": "Après 1990",
    "etat": "Très bon état",
    "description": "Petite boîte à bijoux en métal argenté en forme de cœur, intérieur velours, dans sa boîte.",
@@ -6610,29 +6614,6 @@
    ]
   },
   {
-   "num": "OBJ-365",
-   "ajoute_le": "2026-11-10",
-   "nouveau": false,
-   "objet": "Pilulier ancien damasquiné fleur et oiseau",
-   "categorie": "Art déco",
-   "epoque": "Avant 1970",
-   "etat": "Très bon état",
-   "description": "Pilulier en métal doré damasquiné (Tolède), décor fleur et oiseau.",
-   "prix": 20,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-365_1.jpg",
-    "OBJ-365_2.jpg",
-    "OBJ-365_3.jpg",
-    "OBJ-365_4.jpg",
-    "OBJ-365_5.jpg",
-    "OBJ-365_6.jpg",
-    "OBJ-365_7.jpg",
-    "OBJ-365_8.jpg",
-    "OBJ-365_9.jpg"
-   ]
-  },
-  {
    "num": "OBJ-366",
    "ajoute_le": "2026-11-10",
    "nouveau": false,
@@ -6835,7 +6816,7 @@
    "ajoute_le": "2026-11-10",
    "nouveau": false,
    "objet": "Briquet Silver Match dans son coffret",
-   "categorie": "Art déco",
+   "categorie": "Divers",
    "epoque": "1970–1990",
    "etat": "Très bon état",
    "description": "Briquet de luxe Silver Match plaqué or guilloché, dans son coffret avec notice et garantie.",
@@ -6930,29 +6911,6 @@
     "OBJ-379_3.jpg",
     "OBJ-379_4.jpg",
     "OBJ-379_5.jpg"
-   ]
-  },
-  {
-   "num": "OBJ-380",
-   "ajoute_le": "2026-11-10",
-   "nouveau": false,
-   "objet": "Cloche de table à main style antique",
-   "categorie": "Art déco",
-   "epoque": "Avant 1970",
-   "etat": "Très bon état",
-   "description": "Clochette de table en laiton ornée.",
-   "prix": 20,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-380_1.jpg",
-    "OBJ-380_2.jpg",
-    "OBJ-380_3.jpg",
-    "OBJ-380_4.jpg",
-    "OBJ-380_5.jpg",
-    "OBJ-380_6.jpg",
-    "OBJ-380_7.jpg",
-    "OBJ-380_8.jpg",
-    "OBJ-380_9.jpg"
    ]
   },
   {
@@ -7606,7 +7564,7 @@
    "ajoute_le": "2026-11-10",
    "nouveau": false,
    "objet": "Tapis éléphants",
-   "categorie": "Nappes & linge de maison",
+   "categorie": "Tapis",
    "epoque": "Après 1990",
    "etat": "Très bon état",
    "description": "Petit tapis blanc décor d'éléphants.",
