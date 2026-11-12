@@ -1,5 +1,5 @@
 {
- "mis_a_jour": "12/11/2026 à 17h57",
+ "mis_a_jour": "12/11/2026 à 18h37",
  "prochaine": {
   "date": "samedi 14 novembre après-midi",
   "lieu": "À 7' du RER B / 15' de Cité U (Paris 14) et de Mairie de Montrouge"
@@ -911,19 +911,20 @@
    "num": "OBJ-053",
    "ajoute_le": "2026-11-10",
    "nouveau": false,
-   "objet": "Plateau / sous-assiette en laiton",
+   "objet": "Sous-assiette de présentation en laiton massif",
    "categorie": "Décoration",
    "epoque": "1970–1990",
    "etat": "Très bon état",
    "description": "Sous-assiette ou plateau rond en laiton doré poli, bord mouluré. Environ 30 cm de diamètre ; quelques traces d'oxydation.",
-   "prix": 20,
+   "prix": 25,
    "statut": "Disponible",
    "photos": [
     "OBJ-053_1.jpg",
     "OBJ-053_2.jpg",
     "OBJ-053_3.jpg",
     "OBJ-053_4.jpg",
-    "OBJ-053_5.jpg"
+    "OBJ-053_5.jpg",
+    "OBJ-053_6.jpg"
    ]
   },
   {
@@ -7632,21 +7633,6 @@
     "OBJ-439_1.jpg",
     "OBJ-439_2.jpg",
     "OBJ-439_3.jpg"
-   ]
-  },
-  {
-   "num": "OBJ-440",
-   "ajoute_le": "2026-11-12",
-   "nouveau": true,
-   "objet": "Sous-assiette de présentation en laiton massif",
-   "categorie": "Vaisselle & cuisine",
-   "epoque": "Après 1990",
-   "etat": "Très bon état",
-   "description": "Sous-assiette de présentation ronde en laiton massif, environ 30 cm.",
-   "prix": 25,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-440_1.jpg"
    ]
   },
   {
