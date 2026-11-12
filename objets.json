@@ -1,5 +1,9 @@
 {
- "mis_a_jour": "12/11/2026 à 17h39",
+ "mis_a_jour": "12/11/2026 à 17h50",
+ "prochaine": {
+  "date": "samedi 14 novembre après-midi",
+  "lieu": "À 7' du RER B / 15' de Cité U (Paris 14) et de Mairie de Montrouge"
+ },
  "email": "gerezfamille@gmail.com",
  "categories": [
   "Mobilier",
@@ -1751,7 +1755,14 @@
     "OBJ-109_7.jpg",
     "OBJ-109_8.jpg",
     "OBJ-109_9.jpg",
-    "OBJ-109_10.jpg"
+    "OBJ-109_10.jpg",
+    "OBJ-109_11.jpg",
+    "OBJ-109_12.jpg",
+    "OBJ-109_13.jpg",
+    "OBJ-109_14.jpg",
+    "OBJ-109_15.jpg",
+    "OBJ-109_16.jpg",
+    "OBJ-109_17.jpg"
    ]
   },
   {
@@ -7389,11 +7400,11 @@
    "num": "OBJ-428",
    "ajoute_le": "2026-11-12",
    "nouveau": true,
-   "objet": "Coupe-papier en laiton 26 cm",
+   "objet": "Coupe-papier en laiton doré 26 cm",
    "categorie": "Divers",
    "epoque": "1970–1990",
    "etat": "Très bon état",
-   "description": "Coupe-papier ouvre-lettre en laiton, 26 cm.",
+   "description": "Coupe-papier ouvre-lettre vintage en laiton doré, 26 cm.",
    "prix": 30,
    "statut": "Disponible",
    "photos": [
@@ -7401,28 +7412,8 @@
     "OBJ-428_2.jpg",
     "OBJ-428_3.jpg",
     "OBJ-428_4.jpg",
-    "OBJ-428_5.jpg"
-   ]
-  },
-  {
-   "num": "OBJ-429",
-   "ajoute_le": "2026-11-12",
-   "nouveau": true,
-   "objet": "Couteau électrique Moulinex (orange) dans sa boîte",
-   "categorie": "Électroménager",
-   "epoque": "1970–1990",
-   "etat": "Très bon état",
-   "description": "Couteau électrique Moulinex des années 70, blanc et orange, avec lames et plateau de rangement, dans sa boîte d'origine.",
-   "prix": 25,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-429_1.jpg",
-    "OBJ-429_2.jpg",
-    "OBJ-429_3.jpg",
-    "OBJ-429_4.jpg",
-    "OBJ-429_5.jpg",
-    "OBJ-429_6.jpg",
-    "OBJ-429_7.jpg"
+    "OBJ-428_5.jpg",
+    "OBJ-428_6.jpg"
    ]
   },
   {
@@ -7713,21 +7704,6 @@
    "photos": [
     "OBJ-443_1.jpg",
     "OBJ-443_2.jpg"
-   ]
-  },
-  {
-   "num": "OBJ-444",
-   "ajoute_le": "2026-11-12",
-   "nouveau": true,
-   "objet": "Coupe-papier vintage en laiton doré",
-   "categorie": "Divers",
-   "epoque": "1970–1990",
-   "etat": "Très bon état",
-   "description": "Coupe-papier ouvre-lettre vintage en laiton doré.",
-   "prix": 25,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-444_1.jpg"
    ]
   },
   {
