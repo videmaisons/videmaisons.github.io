@@ -1,5 +1,5 @@
 {
- "mis_a_jour": "16/11/2026 à 11h05",
+ "mis_a_jour": "16/11/2026 à 11h09",
  "prochaine": {
   "date": "samedi 14 novembre après-midi",
   "lieu": "À 7' du RER B / 15' de Cité U (Paris 14) et de Mairie de Montrouge"
@@ -483,7 +483,8 @@
     "OBJ-028_1.jpg",
     "OBJ-028_2.jpg",
     "OBJ-028_3.jpg",
-    "OBJ-028_4.jpg"
+    "OBJ-028_4.jpg",
+    "OBJ-028_5.jpg"
    ]
   },
   {
@@ -4041,6 +4042,27 @@
    ]
   },
   {
+   "num": "OBJ-244",
+   "ajoute_le": "2026-11-10",
+   "nouveau": false,
+   "objet": "Grand BABAR peluche éléphant",
+   "categorie": "Enfants & jouets",
+   "epoque": "1970–1990",
+   "etat": "Très bon état",
+   "description": "Grande peluche éléphant babar gris en salopette verte.",
+   "prix": 40,
+   "statut": "Disponible",
+   "photos": [
+    "OBJ-244_1.jpg",
+    "OBJ-244_2.jpg",
+    "OBJ-244_3.jpg",
+    "OBJ-244_4.jpg",
+    "OBJ-244_5.jpg",
+    "OBJ-244_6.jpg",
+    "OBJ-244_7.jpg"
+   ]
+  },
+  {
    "num": "OBJ-245",
    "ajoute_le": "2026-11-10",
    "nouveau": false,
@@ -7344,7 +7366,9 @@
     "OBJ-434_5.jpg",
     "OBJ-434_6.jpg",
     "OBJ-434_7.jpg",
-    "OBJ-434_8.jpg"
+    "OBJ-434_8.jpg",
+    "OBJ-434_9.jpg",
+    "OBJ-434_10.jpg"
    ]
   },
   {
@@ -7529,6 +7553,74 @@
     "OBJ-445_2.jpg",
     "OBJ-445_3.jpg"
    ]
+  },
+  {
+   "num": "OBJ-446",
+   "ajoute_le": "2026-11-16",
+   "nouveau": true,
+   "objet": "Lustre vintage 5 globes en verre ciselé",
+   "categorie": "Luminaires",
+   "epoque": "Avant 1970",
+   "etat": "Très bon état",
+   "description": "Lustre rétro à 5 bras, monture métal noir et laiton, globes en verre moulé à motif tourbillon. Fonctionne.",
+   "prix": 45,
+   "statut": "Disponible",
+   "photos": [
+    "OBJ-446_1.jpg",
+    "OBJ-446_2.jpg"
+   ]
+  },
+  {
+   "num": "OBJ-447",
+   "ajoute_le": "2026-11-16",
+   "nouveau": true,
+   "objet": "Suspension style industriel blanche",
+   "categorie": "Luminaires",
+   "epoque": "Après 1990",
+   "etat": "Très bon état",
+   "description": "Suspension en métal blanc de style industriel, cache-piton chromé, ajours en haut de l'abat-jour. Fonctionne.",
+   "prix": 15,
+   "statut": "Disponible",
+   "photos": [
+    "OBJ-447_1.jpg",
+    "OBJ-447_2.jpg"
+   ]
+  },
+  {
+   "num": "OBJ-448",
+   "ajoute_le": "2026-11-16",
+   "nouveau": true,
+   "objet": "Bottes hautes en cuir camel vintage",
+   "categorie": "Chaussures",
+   "epoque": "1970–1990",
+   "etat": "Bon état",
+   "description": "Paire de bottes hautes en cuir camel à surpiqûres blanches, bride à boucle à la cheville, talon bois. Semelles et talons un peu usés.",
+   "prix": 30,
+   "statut": "Disponible",
+   "photos": [
+    "OBJ-448_1.jpg",
+    "OBJ-448_2.jpg",
+    "OBJ-448_3.jpg",
+    "OBJ-448_4.jpg",
+    "OBJ-448_5.jpg",
+    "OBJ-448_6.jpg",
+    "OBJ-448_7.jpg"
+   ]
+  },
+  {
+   "num": "OBJ-449",
+   "ajoute_le": "2026-11-16",
+   "nouveau": true,
+   "objet": "Meubles bas de cuisine",
+   "categorie": "Mobilier",
+   "epoque": "Après 1990",
+   "etat": "Bon état",
+   "description": "Éléments bas de cuisine façade bois clair, poignées métal (plusieurs portes).",
+   "prix": 40,
+   "statut": "Disponible",
+   "photos": [
+    "OBJ-449_1.jpg"
+   ]
   }
  ],
  "vue_globale": [
@@ -7565,6 +7657,23 @@
   "Vue globale__20261023_134450.jpg",
   "Vue globale__20261104_150955.jpg",
   "Vue globale__20261104_152737.jpg",
+  "Vue globale__20261104_154109.jpg",
+  "Vue globale__20261104_155412.jpg",
+  "Vue globale__20261104_155857.jpg",
+  "Vue globale__20261104_155903.jpg",
+  "Vue globale__20261104_155907.jpg",
+  "Vue globale__20261104_155911.jpg",
+  "Vue globale__20261104_155917.jpg",
+  "Vue globale__20261104_155920.jpg",
+  "Vue globale__20261104_155946.jpg",
+  "Vue globale__20261104_155948.jpg",
+  "Vue globale__20261104_160005.jpg",
+  "Vue globale__20261104_160122.jpg",
+  "Vue globale__20261104_160126.jpg",
+  "Vue globale__20261104_160131.jpg",
+  "Vue globale__20261104_160344.jpg",
+  "Vue globale__20261104_160348.jpg",
+  "Vue globale__20261104_160353.jpg",
   "Vue globale__20261104_164657.jpg",
   "Vue globale__20261104_165235.jpg",
   "Vue globale__20261104_165241.jpg",
@@ -7572,6 +7681,35 @@
   "Vue globale__20261104_165647.jpg",
   "Vue globale__20261104_170313.jpg",
   "Vue globale__20261104_170318.jpg",
+  "Vue globale__20261114_170251.jpg",
+  "Vue globale__20261114_170306.jpg",
+  "Vue globale__20261114_170424.jpg",
+  "Vue globale__20261114_170437.jpg",
+  "Vue globale__20261114_170458.jpg",
+  "Vue globale__20261114_170544.jpg",
+  "Vue globale__20261114_170550.jpg",
+  "Vue globale__20261114_170922.jpg",
+  "Vue globale__20261114_170930.jpg",
+  "Vue globale__20261114_170937.jpg",
+  "Vue globale__20261114_170944.jpg",
+  "Vue globale__20261114_171001.jpg",
+  "Vue globale__20261114_171004.jpg",
+  "Vue globale__20261114_171012.jpg",
+  "Vue globale__20261114_171018.jpg",
+  "Vue globale__20261114_171030.jpg",
+  "Vue globale__20261114_171043.jpg",
+  "Vue globale__20261114_171047.jpg",
+  "Vue globale__20261114_171129.jpg",
+  "Vue globale__20261114_171137.jpg",
+  "Vue globale__20261114_171307.jpg",
+  "Vue globale__20261114_171312.jpg",
+  "Vue globale__20261114_171327.jpg",
+  "Vue globale__20261114_171331.jpg",
+  "Vue globale__20261114_171336.jpg",
+  "Vue globale__20261114_171342.jpg",
+  "Vue globale__20261114_171346.jpg",
+  "Vue globale__20261114_171648.jpg",
+  "Vue globale__20261114_173734.jpg",
   "Vue globale__IMG-20261017-WA0038.jpg",
   "Vue globale__IMG-20261017-WA0039.jpg"
  ]
