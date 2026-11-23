@@ -1,5 +1,5 @@
 {
- "mis_a_jour": "18/11/2026 à 22h00",
+ "mis_a_jour": "23/11/2026 à 10h59",
  "prochaine": {
   "date": "samedi 14 novembre après-midi",
   "lieu": "À 7' du RER B / 15' de Cité U (Paris 14) et de Mairie de Montrouge"
@@ -987,28 +987,6 @@
    ]
   },
   {
-   "num": "OBJ-057",
-   "ajoute_le": "2026-11-10",
-   "nouveau": false,
-   "objet": "2 tasses et soucoupes décor feuilles (emballage cadeau)",
-   "categorie": "Vaisselle & cuisine",
-   "epoque": "Après 1990",
-   "etat": "Neuf",
-   "description": "Deux tasses et soucoupes en porcelaine décor de feuilles vertes et frise bleue et jaune, sous emballage cadeau avec nœud doré. Tasses d'environ 9 cm de haut.",
-   "prix": 8,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-057_1.jpg",
-    "OBJ-057_2.jpg",
-    "OBJ-057_3.jpg",
-    "OBJ-057_4.jpg",
-    "OBJ-057_5.jpg",
-    "OBJ-057_6.jpg",
-    "OBJ-057_7.jpg",
-    "OBJ-057_8.jpg"
-   ]
-  },
-  {
    "num": "OBJ-061",
    "ajoute_le": "2026-11-10",
    "nouveau": false,
@@ -1097,25 +1075,6 @@
     "OBJ-065_3.jpg"
    ],
    "prix_texte": "Selon les flacons"
-  },
-  {
-   "num": "OBJ-066",
-   "ajoute_le": "2026-11-10",
-   "nouveau": false,
-   "objet": "Flacon Madame Rochas (démonstration)",
-   "categorie": "Cosmétiques & parfums",
-   "epoque": "Après 1990",
-   "etat": "Très bon état",
-   "description": "Grand flacon factice de démonstration « Madame Rochas » parfum de toilette, verre décoré d'arabesques dorées, capot doré cannelé. Environ 25 cm de haut.",
-   "prix": 5,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-066_1.jpg",
-    "OBJ-066_2.jpg",
-    "OBJ-066_3.jpg",
-    "OBJ-066_4.jpg",
-    "OBJ-066_5.jpg"
-   ]
   },
   {
    "num": "OBJ-067",
@@ -1359,23 +1318,6 @@
     "OBJ-087_2.jpg",
     "OBJ-087_3.jpg",
     "OBJ-087_4.jpg"
-   ]
-  },
-  {
-   "num": "OBJ-088",
-   "ajoute_le": "2026-11-10",
-   "nouveau": false,
-   "objet": "Œuf décoratif turquoise",
-   "categorie": "Décoration",
-   "epoque": "1970–1990",
-   "etat": "Très bon état",
-   "description": "Œuf décoratif en pierre ou céramique turquoise marbrée, poli. Environ 7 cm de haut.",
-   "prix": 10,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-088_1.jpg",
-    "OBJ-088_2.jpg",
-    "OBJ-088_3.jpg"
    ]
   },
   {
@@ -2214,10 +2156,6 @@
    "prix": 30,
    "statut": "Disponible",
    "photos": [
-    "OBJ-135_1.jpg",
-    "OBJ-135_2.jpg",
-    "OBJ-135_3.jpg",
-    "OBJ-135_4.jpg",
     "OBJ-135_5.jpg"
    ]
   },
@@ -2277,10 +2215,6 @@
    "prix": 175,
    "statut": "Disponible",
    "photos": [
-    "OBJ-139_1.jpg",
-    "OBJ-139_2.jpg",
-    "OBJ-139_3.jpg",
-    "OBJ-139_4.jpg",
     "OBJ-139_5.jpg"
    ]
   },
@@ -2494,24 +2428,6 @@
    ]
   },
   {
-   "num": "OBJ-153",
-   "ajoute_le": "2026-11-10",
-   "nouveau": false,
-   "objet": "Grille de cuisson IKEA",
-   "categorie": "Vaisselle & cuisine",
-   "epoque": "Après 1990",
-   "etat": "Très bon état",
-   "description": "Poêle-grill rectangulaire IKEA, revêtement antiadhésif.",
-   "prix": 4,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-153_1.jpg",
-    "OBJ-153_2.jpg",
-    "OBJ-153_3.jpg",
-    "OBJ-153_4.jpg"
-   ]
-  },
-  {
    "num": "OBJ-154",
    "ajoute_le": "2026-11-10",
    "nouveau": false,
@@ -2527,25 +2443,6 @@
     "OBJ-154_2.jpg",
     "OBJ-154_3.jpg",
     "OBJ-154_4.jpg"
-   ]
-  },
-  {
-   "num": "OBJ-155",
-   "ajoute_le": "2026-11-10",
-   "nouveau": false,
-   "objet": "Plat à paella 35 cm avec couvercle",
-   "categorie": "Vaisselle & cuisine",
-   "epoque": "Après 1990",
-   "etat": "Très bon état",
-   "description": "Plat à paella Magefesa 35 cm avec couvercle.",
-   "prix": 13,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-155_1.jpg",
-    "OBJ-155_2.jpg",
-    "OBJ-155_3.jpg",
-    "OBJ-155_4.jpg",
-    "OBJ-155_5.jpg"
    ]
   },
   {
@@ -3552,24 +3449,6 @@
     "OBJ-214_3.jpg",
     "OBJ-214_4.jpg",
     "OBJ-214_5.jpg"
-   ]
-  },
-  {
-   "num": "OBJ-215",
-   "ajoute_le": "2026-11-10",
-   "nouveau": false,
-   "objet": "Blason armure à accrocher",
-   "categorie": "Décoration",
-   "epoque": "1970–1990",
-   "etat": "Très bon état",
-   "description": "Blason décoratif avec épées miniatures à accrocher au mur.",
-   "prix": 3,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-215_1.jpg",
-    "OBJ-215_2.jpg",
-    "OBJ-215_3.jpg",
-    "OBJ-215_4.jpg"
    ]
   },
   {
@@ -6298,27 +6177,6 @@
    ]
   },
   {
-   "num": "OBJ-376",
-   "ajoute_le": "2026-11-10",
-   "nouveau": false,
-   "objet": "Anciennes bougies incrustées de fleurs séchées",
-   "categorie": "Décoration",
-   "epoque": "1970–1990",
-   "etat": "Très bon état",
-   "description": "Grande bougie décorative incrustée de fleurs séchées, sur coupelle.",
-   "prix": 10,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-376_1.jpg",
-    "OBJ-376_2.jpg",
-    "OBJ-376_3.jpg",
-    "OBJ-376_4.jpg",
-    "OBJ-376_5.jpg",
-    "OBJ-376_6.jpg",
-    "OBJ-376_7.jpg"
-   ]
-  },
-  {
    "num": "OBJ-377",
    "ajoute_le": "2026-11-10",
    "nouveau": false,
@@ -6683,24 +6541,6 @@
     "OBJ-398_5.jpg",
     "OBJ-398_6.jpg",
     "OBJ-398_7.jpg"
-   ]
-  },
-  {
-   "num": "OBJ-399",
-   "ajoute_le": "2026-11-10",
-   "nouveau": false,
-   "objet": "Livre « Le Shah » de William Shawcross",
-   "categorie": "Livres",
-   "epoque": "Après 1990",
-   "etat": "Très bon état",
-   "description": "Le Shah : exil et mort d'un personnage encombrant, éditions Stock.",
-   "prix": 3,
-   "statut": "Disponible",
-   "photos": [
-    "OBJ-399_1.jpg",
-    "OBJ-399_2.jpg",
-    "OBJ-399_3.jpg",
-    "OBJ-399_4.jpg"
    ]
   },
   {
@@ -7586,14 +7426,11 @@
   }
  ],
  "vue_globale": [
-  "Vue globale__20261020_215833.jpg",
   "Vue globale__20261023_133800.jpg",
   "Vue globale__20261023_133814.jpg",
   "Vue globale__20261023_133819.jpg",
   "Vue globale__20261023_133823.jpg",
   "Vue globale__20261023_133950.jpg",
-  "Vue globale__20261023_133954.jpg",
-  "Vue globale__20261023_133958.jpg",
   "Vue globale__20261023_134041.jpg",
   "Vue globale__20261023_134044.jpg",
   "Vue globale__20261023_134102.jpg",
@@ -7603,10 +7440,6 @@
   "Vue globale__20261023_134139.jpg",
   "Vue globale__20261023_134145.jpg",
   "Vue globale__20261023_134202.jpg",
-  "Vue globale__20261023_134210.jpg",
-  "Vue globale__20261023_134214.jpg",
-  "Vue globale__20261023_134223.jpg",
-  "Vue globale__20261023_134226.jpg",
   "Vue globale__20261023_134339.jpg",
   "Vue globale__20261023_134343.jpg",
   "Vue globale__20261023_134350.jpg",
@@ -7615,7 +7448,6 @@
   "Vue globale__20261023_134424.jpg",
   "Vue globale__20261023_134427.jpg",
   "Vue globale__20261023_134433.jpg",
-  "Vue globale__20261023_134440.jpg",
   "Vue globale__20261023_134450.jpg",
   "Vue globale__20261104_150955.jpg",
   "Vue globale__20261104_152737.jpg",
@@ -7632,7 +7464,6 @@
   "Vue globale__20261104_160005.jpg",
   "Vue globale__20261104_160122.jpg",
   "Vue globale__20261104_160126.jpg",
-  "Vue globale__20261104_160131.jpg",
   "Vue globale__20261104_160344.jpg",
   "Vue globale__20261104_160348.jpg",
   "Vue globale__20261104_160353.jpg",
